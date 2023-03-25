@@ -1,5 +1,5 @@
 from model.registration_page import RegistrationPage
-from model.user_data import User
+from model.user_data import User, Subjects
 
 
 def test_authorization(browser_options):
@@ -12,7 +12,7 @@ def test_authorization(browser_options):
         birth_year="2005",
         birth_month="June",
         birth_day="05",
-        subject="Maths",
+        subject=Subjects.biology.value,
         hobby="Sports",
         upload_filename="child.jpg",
         current_address="Morskaya, 5",
