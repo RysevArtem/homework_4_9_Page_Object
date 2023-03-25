@@ -9,9 +9,11 @@ from pathlib import Path
 
 import tests
 
+
 class RegistrationPage():
     def page_open(self):
         browser.open('/automation-practice-form')
+
     def page_set_up(self):
         browser.execute_script(f'document.querySelector("{Locators.page_set_up_footer}").remove()')
         browser.execute_script(f'document.querySelector("{Locators.page_set_up_fixedban}").remove()')

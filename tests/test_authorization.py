@@ -3,7 +3,6 @@ from model.user_data import User
 
 
 def test_authorization(browser_options):
-
     student = User(
         first_name="Артем",
         last_name="Рысев",
