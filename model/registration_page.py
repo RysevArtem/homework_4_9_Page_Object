@@ -3,11 +3,7 @@ import os
 from selene.support.shared import browser
 from selene import be, have, command
 
-import model
 from .locators import Locators
-from pathlib import Path
-
-import tests
 
 
 class RegistrationPage():
