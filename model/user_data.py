@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 from enum import Enum
 
+
 class Subjects(Enum):
     maths = "Maths"
     chemistry = "Chemistry"
